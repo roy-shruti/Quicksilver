@@ -3,7 +3,7 @@ from fastapi import FastAPI
 import openai
 import concurrent.futures
 import requests
-from subcategories import subcategories,units
+from Quicksilver.subcategories import subcategories,units
  
 app = FastAPI()
 openai.api_key = 'API_KEY'
